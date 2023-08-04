@@ -1,0 +1,76 @@
+body{
+    background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-abstract-futuristic-circuit-board-illustration-high-computer-technology-background-picture-image_1270394.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.outer{
+    height: 600px;
+    width: 600px;
+    background-color: rgba(221, 221, 221, 0.379); 
+    
+    border-radius: 20px;
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 55px 1px black;
+   /* flex-wrap: wrap;*/
+}
+.outer input{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.outer label{
+    font-size: 25px;
+}
+.form{
+    
+    padding-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.form button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(194, 238, 244);
+    border: none;
+    box-shadow: 5px 5px 3px black;
+}
+.outer h1{
+    color: aqua;
+    margin-top: -70px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.outer h3{
+    font-size: 30px;
+    font-weight: 900px;
+    background-color:yellow;
+    border-radius: 20px;
+}
+#error{
+    position: absolute;
+    top: 50px;
+}
+.checkbtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.checkbtn #check{
+    width: 40px;
+    box-sizing: content-box;
+}
